@@ -14,5 +14,16 @@ playGameButton.addEventListener("click", function () {
     return alert("Level is required");
   }
 
-  switchPage('game')
+  localStorage.setItem("username", usernameInput.value);
+  localStorage.setItem("level", levelInput.value);
+
+  switchPage("game");
 });
+
+if (localStorage.getItem("username")) {
+  usernameInput.value = localStorage.getItem("username");
+}
+
+if (localStorage.getItem("level")) {
+  levelInput.value = localStorage.getItem("level");
+}
