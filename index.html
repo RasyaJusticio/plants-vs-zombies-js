@@ -8,6 +8,48 @@
     <title>PlantsVsZombies</title>
   </head>
   <body>
+    <div id="lobbypage" class="page">
+      <div class="page-container">
+        <div class="p-8 shadow-md rounded-md" style="background-color: #81401b">
+          <div class="flex flex-col items-center justify-center gap-4">
+            <img src="./assets/general/logo.png" alt="" class="w-64" />
+            <div
+              class="flex flex-col items-center justify-center gap-1"
+              style="width: calc(100% + 1rem)"
+            >
+              <input
+                type="text"
+                class="text-white w-full px-3 py-1.5 rounded-md border-2 placeholder:text-white"
+                style="background-color: #44200a; border-color: #90502c"
+                placeholder="Input username..."
+              />
+              <select
+                class="text-white w-full px-3 py-2 rounded-md border-2"
+                style="background-color: #44200a; border-color: #90502c"
+              >
+                <option disabled selected>Select Level</option>
+                <option value="easy">Easy</option>
+                <option value="medium">Medium</option>
+                <option value="hard">Hard</option>
+              </select>
+              <div class="flex justify-evenly w-full gap-2">
+                <button
+                  class="font-bold w-full px-3 py-1.5 rounded-md transition-colors bg-green-600 text-white hover:bg-green-700 hover:text-gray-300"
+                >
+                  Play Game
+                </button>
+                <button
+                  class="font-bold w-full px-3 py-1.5 rounded-md transition-colors bg-yellow-400 hover:bg-yellow-600"
+                >
+                  Instruction
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <script src="./js/script.js"></script>
   </body>
 </html>
