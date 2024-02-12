@@ -19,11 +19,13 @@
             >
               <input
                 type="text"
+                id="usernameInput"
                 class="text-white w-full px-3 py-1.5 rounded-md border-2 placeholder:text-white"
                 style="background-color: #44200a; border-color: #90502c"
                 placeholder="Input username..."
               />
               <select
+                id="levelInput"
                 class="text-white w-full px-3 py-2 rounded-md border-2"
                 style="background-color: #44200a; border-color: #90502c"
               >
@@ -34,11 +36,13 @@
               </select>
               <div class="flex justify-evenly w-full gap-2">
                 <button
+                  id="playGameButton"
                   class="font-bold w-full px-3 py-1.5 rounded-md transition-colors bg-green-600 text-white hover:bg-green-700 hover:text-gray-300"
                 >
                   Play Game
                 </button>
                 <button
+                  id="instructionOpenButton"
                   class="font-bold w-full px-3 py-1.5 rounded-md transition-colors bg-yellow-400 hover:bg-yellow-600"
                 >
                   Instruction
@@ -50,6 +54,13 @@
       </div>
     </div>
 
+    <div id="gamepage" class="page">
+      <div class="page-container">
+        this is game
+      </div>
+    </div>
+
     <script src="./js/script.js"></script>
+    <script src="./js/lobbypage.js"></script>
   </body>
 </html>
