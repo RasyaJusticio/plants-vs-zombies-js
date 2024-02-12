@@ -51,13 +51,42 @@
             </div>
           </div>
         </div>
+        <div
+          id="instructionModalOverlay"
+          class="fixed inset-0 flex justify-center items-center"
+          style="background-color: rgba(0, 0, 0, 0.5)"
+        >
+          <div
+            id="instructionModal"
+            class="shadow-md rounded-md"
+            style="background-color: #81401b"
+          >
+            <div class="flex flex-col justify-center items-center w-96">
+              <div class="flex w-full items-center p-8">
+                <span class="text-white font-bold text-2xl"
+                  >Game Instructions</span
+                >
+                <img
+                  src="./assets/general/close-icon.png"
+                  alt=""
+                  class="w-8 ml-auto"
+                />
+              </div>
+              <ul class="list-decimal pl-12 pr-8 pb-8 text-white">
+                <li>Input username and select the level that you want</li>
+                <li>Collect suns to purchase plant cards</li>
+                <li>Select a plant card and put it into the field</li>
+                <li>Use the plants together and fight zombies</li>
+                <li>Stay alive for as long as possible</li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
 
     <div id="gamepage" class="page">
-      <div class="page-container">
-        this is game
-      </div>
+      <div class="page-container">this is game</div>
     </div>
 
     <script src="./js/script.js"></script>
